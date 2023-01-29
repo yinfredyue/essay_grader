@@ -7,6 +7,7 @@ NLTK_DIR = "./nltk_data"
 
 nltk.data.path.append(NLTK_DIR)
 nltk.download('punkt', quiet=True, download_dir=NLTK_DIR)
+nltk.download('averaged_perceptron_tagger', quiet=True, download_dir=NLTK_DIR)
 
 porter_stemmer = PorterStemmer()
 

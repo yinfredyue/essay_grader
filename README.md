@@ -12,6 +12,8 @@ conda activate [your_env_name]
 
 conda install --file requirements.txt
 
+python -m spacy download en_core_web_sm
+
 ```
 
 ## Usage
